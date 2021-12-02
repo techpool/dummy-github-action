@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step - 1
         id: hello
-        uses: techpool/dummy-github-action/update_notion
+        uses: techpool/dummy-github-action/update_notion@master
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
